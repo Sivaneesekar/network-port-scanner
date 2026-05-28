@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scan Report - 127.0.0.1</title>
+    <style>
+        body { font-family: Arial; background: #1a1a2e; color: #eee; padding: 30px; }
+        h1 { color: #00d4ff; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th { background: #00d4ff; color: #000; padding: 10px; }
+        td { padding: 10px; border-bottom: 1px solid #333; }
+        tr:hover { background: #16213e; }
+        .open { color: #00ff88; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>🔍 Network Port Scan Report</h1>
+    <p>Target: <b>127.0.0.1</b></p>
+    <p>Scanned: <b>2026-05-27 20:46:43</b></p>
+    <p>Open Ports Found: <b>2</b></p>
+    <table>
+        <tr><th>Port</th><th>Service</th><th>Banner</th><th>Status</th></tr>
+
+        <tr>
+            <td>135</td>
+            <td>RPC</td>
+            <td>No banner</td>
+            <td class="open">OPEN</td>
+        </tr>
+        <tr>
+            <td>445</td>
+            <td>SMB</td>
+            <td>No banner</td>
+            <td class="open">OPEN</td>
+        </tr>
+    </table>
+</body>
+</html>
